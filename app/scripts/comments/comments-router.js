@@ -1,7 +1,7 @@
 import {Router} from 'backbone-routing';
 import CommentsRoute from './index/comments-index-route';
 import queryString from 'query-string';
-import Backbone from 'backbone';
+import {history} from 'backbone';
 
 
 export default Router.extend({
@@ -21,7 +21,7 @@ export default Router.extend({
   },
   
   redirect() {
-      Backbone.history.navigate('comments',{trigger: true});
+      history.navigate('comments',{trigger: true});
   },
   
   comments(params) {

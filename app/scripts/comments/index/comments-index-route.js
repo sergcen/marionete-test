@@ -1,4 +1,4 @@
-import Backbone from 'backbone';
+import {history} from 'backbone';
 import {Route} from 'backbone-routing';
 import CommentsCollection from '../comments-collection';
 import CommentsLayout from '../comments-layout';
@@ -26,7 +26,7 @@ export default Route.extend({
       this.filterData = filter;
     //   this.render();
       this.collection.reset(this.getFilteredCollection());
-      Backbone.history.navigate(`comments?${queryString.stringify(this.filterData)}`);
+      history.navigate(`comments?${queryString.stringify(this.filterData)}`);
   },
   
   fetch(filter) {
@@ -45,7 +45,7 @@ export default Route.extend({
     }
     let collection = this.fullCollection.where(filter);
     collection.sort((item1, item2)=>{
-        if (this.filterData.dateSort == 1) {
+        if (this.filterData.dateSort == 0) {
             return new Date(item1.get('date')) - new Date(item2.get('date'));
         } else {
             return new Date(item2.get('date')) - new Date(item1.get('date'));

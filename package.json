@@ -51,16 +51,14 @@
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.6.1"
   },
-  "engines": {
-    "node": ">=0.10.0"
-  },
   "dependencies": {
-    "backbone": "^1.2.3",
+    "backbone": "1.2.3",
     "backbone-routing": "^0.2.0",
     "backbone.marionette": "^2.4.4",
     "backbone.radio": "^1.0.4",
     "backbone.storage": "^0.2.1",
     "bootstrap": "^3.3.6",
+    "debowerify": "^1.4.1",
     "jquery": "^2.1.4",
     "lodash": "^3.10.1",
     "moment": "^2.12.0",

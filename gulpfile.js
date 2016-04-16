@@ -13,6 +13,7 @@ var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
+var debowerify = require('debowerify');
 
 // Bundle files with browserify
 gulp.task('browserify', function () {
@@ -21,8 +22,8 @@ gulp.task('browserify', function () {
     entries: 'app/scripts/main.js',
     debug: true,
     // defining transforms here will avoid crashing your stream
-    transform: [babelify, hbsfy]
-  });
+    transform: [babelify, hbsfy, debowerify]
+  })
 
   bundler = watchify(bundler);
 

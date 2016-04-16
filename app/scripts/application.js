@@ -1,6 +1,5 @@
 import $ from 'jquery';
 import _ from 'lodash';
-import Radio from 'backbone.radio';
 import {Application} from 'backbone.marionette';
 import AppLayout from './app-layout';
 
