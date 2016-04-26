@@ -1,0 +1,46 @@
+[{
+  "id": 1,
+  "comment": "eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim",
+  "date": "12/31/2015",
+  "type": "product_comment"
+}, {
+  "id": 2,
+  "comment": "ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit",
+  "date": "2/20/2016",
+  "type": "product_comment"
+}, {
+  "id": 3,
+  "comment": "sit amet justo morbi ut odio cras mi pede malesuada",
+  "date": "4/21/2015",
+  "type": "product_comment"
+}, {
+  "id": 4,
+  "comment": "aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi",
+  "date": "8/22/2015",
+  "type": "product_comment"
+}, {
+  "id": 5,
+  "comment": "non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis",
+  "date": "4/22/2015",
+  "type": "product_comment"
+}, {
+  "id": 6,
+  "comment": "cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien",
+  "date": "8/31/2015",
+  "type": "product_comment"
+}, {
+  "id": 7,
+  "comment": "tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut",
+  "date": "9/21/2015",
+  "type": "product_comment"
+}, {
+  "id": 8,
+  "comment": "sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum",
+  "date": "3/11/2016",
+  "type": "product_comment"
+}, {
+  "id": 9,
+  "comment": "in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget",
+  "date": "11/7/2015",
+  "type": "product_comment"
+}]
